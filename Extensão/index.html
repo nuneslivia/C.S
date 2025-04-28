@@ -1,62 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Trote Solidário - 2025</title>
-        <link rel="stylesheet" href="CSS/STYLES.CSS"/>
-    </head>
-   <body>
-        <header id="titulo">
-           <span style="margin-right: 110px;"> "Construa vitórias fora de campo e jogue pela solidariedade"</span>
-            <img class="logo1" src="Imagem/Logo.jpg" alt="logo facef"/>
-        </header> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hambúrguer Teste</title>
+    <style>
+        /* Estilo básico */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            position: relative;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        #menu-toggle {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        #links-menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        #links-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Estilo para celular */
+        @media (max-width: 768px) {
+            #menu-toggle {
+                display: block;
+            }
+
+            #links-menu {
+                display: none;
+                flex-direction: column;
+                background-color: #fff;
+                position: absolute;
+                top: 50px;
+                right: 10px;
+                width: 200px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                padding: 10px;
+                border-radius: 8px;
+            }
+
+            #links-menu.active {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        "Construa vitórias fora de campo e jogue pela solidariedade"
+    </header>
+
     <nav>
-      <div id="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Ícone de hambúrguer -->
-      <div id="links-menu">
-          <a href="index.html"> Home </a>
-          <a href="introducao.html"> Introdução </a>
-          <a href="objetivo.html"> Objetivo </a>
-          <a href="formato.html"> Formato </a>
-          <a href="gincana.html"> Gincana </a>
-          <a href="integracao.html"> Integração </a>
-          <a href="observacoes.html"> Observações </a>
-          <a href="calculadoras.html"> Calculadoras </a>
-      </div>
-  </nav>  
-    <img class="Imagem2" src="Imagem/Imagem 2.jpeg" alt="Imagem2"/>
-    <div class="containerU">
-        <h2> TROTE SOLIDÁRIO - 2025 "Construa vitórias fora de campo e jogue pela solidariedade" </h2>
-        <p> CENTRO UNIVERSITÁRIO MUNICIPAL DE FRANCA </p>
-        <p> Uni-FACEF </p>
-        <p> Regulamento Trote Solidário - 2025 </p>
-    </div>
-    <footer>
-        <div class="container10">
-          <div class="row">
-            <div class="col-md-4">
-              <h4>Sobre</h4>
-              <p> Desenvolvido por Laura Costa Nunes </p>
-              <p>&copy; Centro Universitário Municipal de Franca </p>
-            </div>
-            <div class="col-md-4">
-              <h4>Contato</h4>
-              <ul>
-                <li><a href="https://www.unifacef.com.br/">Site Oficial</a></li>
-                <li><a href="https://www.unifacef.com.br/institucional/contato/">Email</a></li>
-                <li><a href="https://www.linkedin.com/school/uni-facef/" target="_blank">Linkedin</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h4>Redes Sociais</h4>
-              <ul>
-                <li><a href="https://www.facebook.com/unifacef" target="_blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com/unifacef/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/user/tvunifacef" target="_blank">YouTube</a></li>
-              </ul>
-            </div>
-          </div>
+        <div id="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <div id="links-menu">
+            <a href="#">Home</a>
+            <a href="#">Introdução</a>
+            <a href="#">Objetivo</a>
+            <a href="#">Formato</a>
+            <a href="#">Gincana</a>
+            <a href="#">Integração</a>
+            <a href="#">Observações</a>
+            <a href="#">Calculadoras</a>
         </div>
-      </footer>
+    </nav>
+
+    <script>
+    function toggleMenu() {
+        var menu = document.getElementById('links-menu');
+        menu.classList.toggle('active');
+    }
+    </script>
+
 </body>
 </html>
