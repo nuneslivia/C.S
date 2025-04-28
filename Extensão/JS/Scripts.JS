@@ -157,11 +157,3 @@ function calcular (){
     soma = soma + pontosSangue
     document.getElementById ("soma").innerHTML = soma.toFixed(2)
 }
-
-
-const menuToggle = document.getElementById('menu-toggle');
-const linksMenu = document.getElementById('links-menu');
-
-menuToggle.addEventListener('click', () => {
-    linksMenu.classList.toggle('show');
-});
