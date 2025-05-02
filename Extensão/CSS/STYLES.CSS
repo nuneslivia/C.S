@@ -2,17 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #40E0D0;
+    background-color: #bdd6ff;
     text-align: center;
 }
 header {
-    background: #008080;
+    background: #3498db; 
     color: white;
     padding: 15px 0;
     font-size: 30 px;
 }
 nav {
-    background-color: #00CED1;
+    background-color: #7fb3d5;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -24,22 +24,15 @@ nav {
     gap: 25px;
 }
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 15px;
     font-size: 18px;
-    background: #008B8B;
+    background: #bdd6ff;
     border-radius: 5px;
 }
 nav a:hover {
-    background: #20B2AA;
-}
-.img {
-    height: auto;
-    width: 100px;
-    margin-right: 20px;
-    border-radius: 8px;
-    margin-left: 50px;
+    background: #3498db;
 }
 .container {
     width: 80%;
@@ -60,270 +53,11 @@ table {
 h4 {
     font-size: 20px;
 }
-.Tabela1 {
-    border-collapse: collapse;
-    border-color: black;
-}
-.Tabela2 {
-    width: 700px;
-    text-align: center;
-    border-color: black;
-    table-layout: fixed;
-}
-.Tabela2 td,
-.Tabela2 th {
-    padding: 5px;
-}
-.linha-1-tabela-2 {
-    background-color: 	#87CEEB;
-    color: black;
-}
-.laranja {
-    background-color: #F4A460
-}
-#Curso1 {
-    text-align: justify;
-}
-.azul {
-    background-color: #87CEFA
-}
-.roxa {
-    background-color: #836FFF;
-}
-#Curso3 {
-    text-align: justify;
-}
-.preta {
-    background-color: 	#696969;
-}
-#Curso2 {
-    text-align: justify;
-}
-.verde {
-    background-color: #66CDAA;
-}
-#Curso4 {
-    text-align: justify;
-}
-.vermelha {
-    background-color: #FA8072;
-}
-#Curso5 {
-    text-align: justify;
-}
-.campos {
-    margin: 20px;
-    justify-content: center;
-}
-.campos label {
-    margin-right: 10px;
-}
-.campos input {
-     width: 80px; 
-     border: 1px solid #42818b;
-     border-radius: 10px;
-     outline: none;
-     font-size: 17px;
-     color: rgb(0, 0, 0);    
-    }
-#equipe {
-    border: none;
-    background-color:#008080;
-    border-radius: 5px;
-    width: 100px;
-    height: 25px;
-    font-size: 15.5px;
-    color: black;   
-    }
-    #equipe:hover{
-        background-color:#20B2AA;
-    }
-    .Tabela3 {
-        border-collapse: collapse;
-        border-color: black;
-    }
-    .Tabela3 td {
-        padding-right: 100px;
-        padding-left: 6px;
-    }
-    .Tabela3 th {
-        text-align: center;
-        padding: 0px 20px;
-    }
-    .linha-1-tabela-3 {
-        background-color: 	#87CEEB;
-        color: black;
-        text-align: center;
-    }
-    h5 {
-        font-size: 18px;
-    }
-    .container2 {
-        text-align: justify;
-        width: 50%;
-        padding: 10px;
-        background-color: #87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    #fonte {
-        font-size: 12px;
-    }
-    .Tabela4 {
-        text-align: center;
-        border-color: black;
-        table-layout: fixed;
-    }
-    .Tabela4 td,
-    .Tabela4 th {
-        padding: 5px;
-    }
-    .linha-1-tabela-4 {
-        background-color: 	#87CEEB;
-        color: black;
-    }
-    .linha-2-tabela-4 {
-        background-color: 	#87CEEB;
-        color: black;
-    }
-    .container3 {
-        text-align: justify;
-        width: 50%;
-        padding: 10px;
-        background-color: #87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    #linha-1-container3 {
-        text-align: center;
-    }
-    .Tabela5 {
-        text-align: center;
-        border-color: black;
-        table-layout: fixed;
-        width: 500px;
-    }
-    .linha-1-tabela-5 {
-        background-color: 	#87CEEB;
-        color: black;
-    }
-    .container4 {
-        text-align: justify;
-        width: 50%;
-        padding: 10px;
-        background-color:#87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    #linha-1-container4 {
-        text-decoration: underline;
-    }
-    h6 {
-        font-size: 18px;
-    }
-    .container5 {
-        text-align: justify;
-        width: 50%;
-        padding: 10px;
-        border: 1px solid;
-        border-color: black;
-        background-color: #87CEFA;
-        margin: 0 auto;
-    }
-    .container6 {
-        text-align: justify;
-        width: 50%;
-        padding: 10px;
-        background-color:#87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    .Tabela6 {
-        text-align: center;
-        border-color: black;
-        table-layout: fixed;
-        width: 500px;
-    }
-    .linha-1-tabela-6 {
-        background-color: 	#87CEEB;
-        color: black;
-    }
-    .container7 {
-        text-align: justify;
-        width: 50%;
-        padding: 5px;
-        background-color: #87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    #linha-1-container7 {
-        text-align: justify;
-        margin-left: 40px;
-    }
-    .container8 {
-        text-align: justify;
-        width: 50%;
-        padding: 5px;
-        background-color: #87CEFA;
-        border: 1px solid;
-        border-color: black;
-        margin: 0 auto;
-    }
-    #linha-1-container8 {
-        margin-left: 10px;
-    }
-    #linha-6-container8 {
-        margin-left: 10px;
-        font-style: italic;
-        font-size: 14px;
-    }
-    .Tabela7 {
-        border-color: black;
-        table-layout: fixed;
-        width: 800px;
-        border-collapse: collapse;
-    }
-    .linha-1-tabela-7 {
-        background-color: #87CEFA;
-        text-align: center;
-    }
-    .container9 {
-        text-align: justify;
-        width: 50%;
-        padding: 8px;
-        border: 1px solid;
-        border-color: black;
-        background-color: #87CEFA;
-        margin: 0 auto;
-    }
-    .campus {
-        margin: 10px;
-    }
-    .campus label{
-        margin-right: 10px;
-    }
-    .logo1 {
-        width: 150px;
-        float: left;
-        margin-left: 10px;
-    }
     footer {
-        background-color: #00CED1;
-        color: #ffffff;
+        background-color: #7fb3d5;
+        color: black;
         text-align: center;
       } 
-      .container10 {
-        margin: 0 auto;
-        background-color: #00CED1;
-        width: 100%;
-        bottom: 0;
-        margin: 0 auto;
-      }
       footer .row {
         display: flex;
         flex-wrap: wrap;
@@ -345,50 +79,18 @@ h4 {
         margin-bottom: 10px;
       }
       footer a {
-        color: #fefefe;
+        color: black;
         text-decoration: none;
       }
       footer a:hover {
-        color: #ffffff;
-      }
-      .Imagem2 {
-        height: auto;
-        width: 1475px;
+        color: black;
       }
       #titulo {
        font-style: italic;
        color: white;
        font-size: 25px;
       }
-button {
-    background-color: #008080;
-    color: white;
-    padding: 10px 40px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 20px;
-    }
-button:hover {
-        background-color: #00CED1;
-    }
-.container form {
-    max-width: 600px;
-    margin: 0 auto;
-    }
-.campos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    }
-    .campos label {
-    flex: 1;
-    text-align: left;
-    margin-right: 10px;
-    }
-    .campos input, .campos select {
-    flex: 1;
-    padding: 5px;
-    }    
+      .row {
+        flex: 1;
+        padding: 80px;
+      }
